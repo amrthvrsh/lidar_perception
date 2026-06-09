@@ -52,8 +52,6 @@ To launch the full pipeline within the optimized C++ component container:
 ros2 launch lidar_perception lidar_perception_pipeline.launch.py
 ```
 
-*To remap the input topic from a bag file:*
-
 
 ---
 
