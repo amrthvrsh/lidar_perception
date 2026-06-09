@@ -87,13 +87,3 @@ Open RViz2 and add the following displays:
    * Displays the raw obstacle points fed into the clusterer.
 
 ---
-
-number of points 
-
-[component_container_mt-1] [INFO] [1780548760.350213723] [pipeline_monitor_node]: 
-[component_container_mt-1] --- LiDAR Perception Pipeline Status ---
-[component_container_mt-1] 1. Original Point Cloud     : 168598 points
-[component_container_mt-1] 2. After ROI Filtering      : 112146 points
-[component_container_mt-1] 3. After Voxel Downsampling : 35186 points
-[component_container_mt-1] 4. After Ground Removal     : 11950 points (obstacle)
-[component_container_mt-1] 5. After Clustering         : 11642 points (in clusters)
