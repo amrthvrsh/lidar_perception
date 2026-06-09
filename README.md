@@ -37,7 +37,10 @@ To ensure strict real-time performance (>10Hz), the entire pipeline is implement
 This package requires `PCL`, `Eigen3`, and `tf2`.
 ```bash
 # Navigate to your workspace
-cd ~/Fperception_ws
+cd ~/ros2_ws
+
+#Cloning
+git clone https://github.com/amrthvrsh/lidar_perception.git
 
 # Build only the lidar_perception package
 colcon build --packages-select lidar_perception --symlink-install
