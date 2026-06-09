@@ -3,7 +3,7 @@
 
 A high-performance, real-time, C++ ROS 2 LiDAR perception pipeline designed for autonomous vehicle applications. 
 
-This package ingests raw 3D PointCloud data, isolates obstacles, groups them into discrete objects, calculates Oriented Bounding Boxes (OBB), and tracks them over time to provide stable, flicker-free velocity and position estimations.
+This package ingests raw 3D PointCloud data, isolates obstacles, groups them into discrete objects.
 
 ---
 
