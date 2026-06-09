@@ -3,7 +3,7 @@
 
 A high-performance, real-time, C++ ROS 2 LiDAR perception pipeline designed for autonomous vehicle applications. 
 
-This package ingests raw 3D PointCloud data, isolates obstacles, groups them into discrete objects.
+This package ingests raw 3D PointCloud data, performs roi crop filtering, voxel grid downsampling, ransac ground segmentation and euclidean clustering.
 
 ---
 
